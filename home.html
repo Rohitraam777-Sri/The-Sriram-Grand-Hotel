@@ -1,0 +1,60 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="home.js">
+ </head>
+ <body background="c:\Users\aloga\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\D03A857A23B5285736C4D55E0BB067C8\WhatsApp Image 2025-11-15 at 12.34.09_64dc7bba.jpg" style="background-size: cover; margin: 10px; padding: 10px;">
+     <h2 class="but" onclick="Showside()"> ☰</h2>
+    <div class="head">
+         
+          <h1 style="margin-bottom: 20px;background-color: black;padding: 5px;border-radius: 5px;width:fit-content;"> The Sriram Grand Hotel</h1>
+      <a href="login.html" class="one">Login</a>
+       
+    </div>
+
+
+    <h1 class="god">Glad 2 Have You Here!</h1>
+
+    <div class="side">
+            <h3  onclick="closed()">✘</h3>
+            <h2 style="margin-top: 20px;"> The Sriram Grand Hotel Slots</h2>
+
+            
+            <div class="option">
+                  
+                 <h3><a href="breakfast.html">Breakfast</a> </h3>
+            <h3><a href="lunch.html">Lunch</a></h3>
+            <h3><a href="dinner.html">Dinner</a></h3>
+            <h3><a href="snacks.html">Snacks</a></h3>
+            <h3><a href="drinks.html">Drinks</a></h3>
+
+
+            </div>
+    </div>
+    
+    <script>
+
+                    var side = document.querySelector(".side")
+ side.style.display = "none"
+
+ function Showside()
+ {
+    side.style.display="block"
+ }
+
+ function closed()
+ {
+     side.style.display="none"
+
+ }
+      
+
+    </script>
+ </body>
+   
+ </html>
+ 
